@@ -19,6 +19,7 @@
 		D8D9649121DC4D0600EA9741 /* AuthLoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8D9648F21DC4D0600EA9741 /* AuthLoginController.swift */; };
 		D8D9649221DC4D0600EA9741 /* AuthLoginController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D8D9649021DC4D0600EA9741 /* AuthLoginController.xib */; };
 		D8D9649421DC4D4600EA9741 /* TestController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8D9649321DC4D4600EA9741 /* TestController.swift */; };
+		D8D9649621DC684200EA9741 /* keys.json in Resources */ = {isa = PBXBuildFile; fileRef = D8D9649521DC684100EA9741 /* keys.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +58,7 @@
 		D8D9648F21DC4D0600EA9741 /* AuthLoginController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthLoginController.swift; sourceTree = "<group>"; };
 		D8D9649021DC4D0600EA9741 /* AuthLoginController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AuthLoginController.xib; sourceTree = "<group>"; };
 		D8D9649321DC4D4600EA9741 /* TestController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestController.swift; sourceTree = "<group>"; };
+		D8D9649521DC684100EA9741 /* keys.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = keys.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,6 +115,7 @@
 				D8D9649321DC4D4600EA9741 /* TestController.swift */,
 				D8D9645621DC484F00EA9741 /* AppDelegate.swift */,
 				D8D9645821DC484F00EA9741 /* WVController.swift */,
+				D8D9649521DC684100EA9741 /* keys.json */,
 				D8D9645A21DC484F00EA9741 /* Main.storyboard */,
 				D8D9646021DC485100EA9741 /* Assets.xcassets */,
 				D8D9646221DC485100EA9741 /* LaunchScreen.storyboard */,
@@ -245,6 +248,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D8D9646421DC485100EA9741 /* LaunchScreen.storyboard in Resources */,
+				D8D9649621DC684200EA9741 /* keys.json in Resources */,
 				D8D9646121DC485100EA9741 /* Assets.xcassets in Resources */,
 				D8D9645C21DC484F00EA9741 /* Main.storyboard in Resources */,
 				D8D9649221DC4D0600EA9741 /* AuthLoginController.xib in Resources */,
