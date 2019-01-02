@@ -17,11 +17,11 @@ class WKWVauth: UIViewController {
         super.viewDidLoad()
     }
     
-    override func handle(_ url: URL) {
-        targetURL = url
-        super.handle(url)
-        loadAddressURL()
-    }
+//    override func handle(_ url: URL) {
+//        targetURL = url
+//        super.handle(url)
+//        loadAddressURL()
+//    }
     
     func loadAddressURL() {
         guard let url = targetURL else { return }
