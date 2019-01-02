@@ -15,6 +15,7 @@
 		D8D9646421DC485100EA9741 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D8D9646221DC485100EA9741 /* LaunchScreen.storyboard */; };
 		D8D9646F21DC485100EA9741 /* t_iOS_AuthTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8D9646E21DC485100EA9741 /* t_iOS_AuthTests.swift */; };
 		D8D9647A21DC485100EA9741 /* t_iOS_AuthUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8D9647921DC485100EA9741 /* t_iOS_AuthUITests.swift */; };
+		D8D9648821DC486A00EA9741 /* TwitchAuth.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8D9648721DC486A00EA9741 /* TwitchAuth.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		D8D9647521DC485100EA9741 /* t-iOS-AuthUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "t-iOS-AuthUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D8D9647921DC485100EA9741 /* t_iOS_AuthUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = t_iOS_AuthUITests.swift; sourceTree = "<group>"; };
 		D8D9647B21DC485100EA9741 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D8D9648721DC486A00EA9741 /* TwitchAuth.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwitchAuth.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 		D8D9645521DC484F00EA9741 /* t-iOS-Auth */ = {
 			isa = PBXGroup;
 			children = (
+				D8D9648721DC486A00EA9741 /* TwitchAuth.swift */,
 				D8D9645621DC484F00EA9741 /* AppDelegate.swift */,
 				D8D9645821DC484F00EA9741 /* ViewController.swift */,
 				D8D9645A21DC484F00EA9741 /* Main.storyboard */,
@@ -259,6 +262,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D8D9648821DC486A00EA9741 /* TwitchAuth.swift in Sources */,
 				D8D9645921DC484F00EA9741 /* ViewController.swift in Sources */,
 				D8D9645721DC484F00EA9741 /* AppDelegate.swift in Sources */,
 				D8D9645F21DC484F00EA9741 /* t_iOS_Auth.xcdatamodeld in Sources */,
