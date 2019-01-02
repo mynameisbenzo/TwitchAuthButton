@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		D8D9645721DC484F00EA9741 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8D9645621DC484F00EA9741 /* AppDelegate.swift */; };
-		D8D9645921DC484F00EA9741 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8D9645821DC484F00EA9741 /* ViewController.swift */; };
+		D8D9645921DC484F00EA9741 /* WVController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8D9645821DC484F00EA9741 /* WVController.swift */; };
 		D8D9645C21DC484F00EA9741 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D8D9645A21DC484F00EA9741 /* Main.storyboard */; };
 		D8D9645F21DC484F00EA9741 /* t_iOS_Auth.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D8D9645D21DC484F00EA9741 /* t_iOS_Auth.xcdatamodeld */; };
 		D8D9646121DC485100EA9741 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D8D9646021DC485100EA9741 /* Assets.xcassets */; };
@@ -16,6 +16,8 @@
 		D8D9646F21DC485100EA9741 /* t_iOS_AuthTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8D9646E21DC485100EA9741 /* t_iOS_AuthTests.swift */; };
 		D8D9647A21DC485100EA9741 /* t_iOS_AuthUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8D9647921DC485100EA9741 /* t_iOS_AuthUITests.swift */; };
 		D8D9648821DC486A00EA9741 /* TwitchAuth.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8D9648721DC486A00EA9741 /* TwitchAuth.swift */; };
+		D8D9649121DC4D0600EA9741 /* AuthLoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8D9648F21DC4D0600EA9741 /* AuthLoginController.swift */; };
+		D8D9649221DC4D0600EA9741 /* AuthLoginController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D8D9649021DC4D0600EA9741 /* AuthLoginController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +40,7 @@
 /* Begin PBXFileReference section */
 		D8D9645321DC484F00EA9741 /* t-iOS-Auth.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "t-iOS-Auth.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D8D9645621DC484F00EA9741 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		D8D9645821DC484F00EA9741 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D8D9645821DC484F00EA9741 /* WVController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WVController.swift; sourceTree = "<group>"; };
 		D8D9645B21DC484F00EA9741 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D8D9645E21DC484F00EA9741 /* t_iOS_Auth.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = t_iOS_Auth.xcdatamodel; sourceTree = "<group>"; };
 		D8D9646021DC485100EA9741 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -51,6 +53,8 @@
 		D8D9647921DC485100EA9741 /* t_iOS_AuthUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = t_iOS_AuthUITests.swift; sourceTree = "<group>"; };
 		D8D9647B21DC485100EA9741 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D8D9648721DC486A00EA9741 /* TwitchAuth.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwitchAuth.swift; sourceTree = "<group>"; };
+		D8D9648F21DC4D0600EA9741 /* AuthLoginController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthLoginController.swift; sourceTree = "<group>"; };
+		D8D9649021DC4D0600EA9741 /* AuthLoginController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AuthLoginController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,8 +106,10 @@
 			isa = PBXGroup;
 			children = (
 				D8D9648721DC486A00EA9741 /* TwitchAuth.swift */,
+				D8D9648F21DC4D0600EA9741 /* AuthLoginController.swift */,
+				D8D9649021DC4D0600EA9741 /* AuthLoginController.xib */,
 				D8D9645621DC484F00EA9741 /* AppDelegate.swift */,
-				D8D9645821DC484F00EA9741 /* ViewController.swift */,
+				D8D9645821DC484F00EA9741 /* WVController.swift */,
 				D8D9645A21DC484F00EA9741 /* Main.storyboard */,
 				D8D9646021DC485100EA9741 /* Assets.xcassets */,
 				D8D9646221DC485100EA9741 /* LaunchScreen.storyboard */,
@@ -238,6 +244,7 @@
 				D8D9646421DC485100EA9741 /* LaunchScreen.storyboard in Resources */,
 				D8D9646121DC485100EA9741 /* Assets.xcassets in Resources */,
 				D8D9645C21DC484F00EA9741 /* Main.storyboard in Resources */,
+				D8D9649221DC4D0600EA9741 /* AuthLoginController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -263,7 +270,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				D8D9648821DC486A00EA9741 /* TwitchAuth.swift in Sources */,
-				D8D9645921DC484F00EA9741 /* ViewController.swift in Sources */,
+				D8D9649121DC4D0600EA9741 /* AuthLoginController.swift in Sources */,
+				D8D9645921DC484F00EA9741 /* WVController.swift in Sources */,
 				D8D9645721DC484F00EA9741 /* AppDelegate.swift in Sources */,
 				D8D9645F21DC484F00EA9741 /* t_iOS_Auth.xcdatamodeld in Sources */,
 			);
