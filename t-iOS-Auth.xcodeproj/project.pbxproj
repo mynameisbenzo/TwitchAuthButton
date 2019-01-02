@@ -18,6 +18,7 @@
 		D8D9648821DC486A00EA9741 /* TwitchAuth.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8D9648721DC486A00EA9741 /* TwitchAuth.swift */; };
 		D8D9649121DC4D0600EA9741 /* AuthLoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8D9648F21DC4D0600EA9741 /* AuthLoginController.swift */; };
 		D8D9649221DC4D0600EA9741 /* AuthLoginController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D8D9649021DC4D0600EA9741 /* AuthLoginController.xib */; };
+		D8D9649421DC4D4600EA9741 /* TestController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8D9649321DC4D4600EA9741 /* TestController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,7 @@
 		D8D9648721DC486A00EA9741 /* TwitchAuth.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwitchAuth.swift; sourceTree = "<group>"; };
 		D8D9648F21DC4D0600EA9741 /* AuthLoginController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthLoginController.swift; sourceTree = "<group>"; };
 		D8D9649021DC4D0600EA9741 /* AuthLoginController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AuthLoginController.xib; sourceTree = "<group>"; };
+		D8D9649321DC4D4600EA9741 /* TestController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,6 +110,7 @@
 				D8D9648721DC486A00EA9741 /* TwitchAuth.swift */,
 				D8D9648F21DC4D0600EA9741 /* AuthLoginController.swift */,
 				D8D9649021DC4D0600EA9741 /* AuthLoginController.xib */,
+				D8D9649321DC4D4600EA9741 /* TestController.swift */,
 				D8D9645621DC484F00EA9741 /* AppDelegate.swift */,
 				D8D9645821DC484F00EA9741 /* WVController.swift */,
 				D8D9645A21DC484F00EA9741 /* Main.storyboard */,
@@ -272,6 +275,7 @@
 				D8D9648821DC486A00EA9741 /* TwitchAuth.swift in Sources */,
 				D8D9649121DC4D0600EA9741 /* AuthLoginController.swift in Sources */,
 				D8D9645921DC484F00EA9741 /* WVController.swift in Sources */,
+				D8D9649421DC4D4600EA9741 /* TestController.swift in Sources */,
 				D8D9645721DC484F00EA9741 /* AppDelegate.swift in Sources */,
 				D8D9645F21DC484F00EA9741 /* t_iOS_Auth.xcdatamodeld in Sources */,
 			);
